@@ -1,0 +1,82 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d49dca;
+  font-size: 62.5%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  flex-direction: column;
+}
+@media screen and (max-width: 520px) {
+  html, body {
+  }
+}
+
+.container {
+  width: 50rem;
+  height: 20rem;
+  position: relative;
+}
+
+.svg-container {
+  z-index: 2;
+  position: absolute;
+}
+
+.mo-container {
+  width: 100%;
+  height: 100%;
+}
+
+.line {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.lttr {
+  fill: #358ff6;
+}
+
+.sound {
+  position: fixed;
+  color: #c235f6;
+  font-size: 1.6rem;
+  bottom: 1rem;
+  right: 1rem;
+  text-decoration: underline;
+  cursor: default;
+}
+.sound--off {
+  text-decoration: line-through;
+}
+
+.oli{
+  font-family: 'Caveat', cursive;
+  font-size: 55px;
+  text-align: center;
+  margin: 15px;
+
+  color: rgb(245, 234, 234);
+  text-decoration-line:underline;
+	text-decoration-color: rgba(250, 73, 67, 0.79);
+}
+.oli h2{
+
+}
+
+.saludo{
+  font-size: 15px;
+
+  margin: 70px;
+  color: rgb(245, 234, 234);
+}
